@@ -36,7 +36,7 @@ let lan = pername[4]
 console.log(lan[1])
 console.log(pername[3].length)
 
-Slicing 
+//Slicing 
 
 let languages = ["Marathi","Hindi","Urdu","Telugu","English"]
 // slice --- return array  ----- start,end (not included)
@@ -45,8 +45,8 @@ console.log(languages.slice(1,3))
 console.log(languages.slice(3,5))
 console.log(languages.slice(1,))
 
-Push ---  add element at the  end of array and returns the new length 
-undefined
+//Push ---  add element at the  end of array and returns the new length 
+//undefined
 let v = languages.push("Spanish")
 console.log(languages)
 console.log(v)
@@ -68,6 +68,10 @@ console.log(added)
 let rm = languages.shift()
 console.log(languages)
 console.log(rm)
+
+
+
+
 
 
 
